@@ -1,3 +1,4 @@
+import "./Question.css";
 import React, { Component, useState } from "react";
 
 function Question(props) {

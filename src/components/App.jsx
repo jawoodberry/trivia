@@ -8,7 +8,7 @@ function App() {
   let questionNum = 0;
   return (
     <div className="app">
-      Trivia!
+      <h1>Trivia!</h1>
       <Question question={data[questionNum].question.text} />
       <NextQuestion />
     </div>
